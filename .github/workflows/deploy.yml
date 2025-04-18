@@ -27,7 +27,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.x'  # or match your project version
+          dotnet-version: '8.x'  # or match your project version
 
       - name: Publish .NET app
         run: dotnet publish -c Release -o ./publish
